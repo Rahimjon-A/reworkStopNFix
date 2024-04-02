@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- google fonts -->
+
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- font awesome -->
+
+        <!-- styles link -->
+        <link rel="stylesheet" href="./styles/style.css" />
+        <!-- styles link -->
+
+        <title>Stop N Fix</title>
+    </head>
+    <body>
+        <!-- Header ( Rahimjon) -->
+        <header class="headerDectop">
+            <div class="container">
+                <div class="navBar__top">
+                    <div class="left">
+                        <ul>
+                            <li><a href="#">О нас </a></li>
+                            <li><a href="#">Отзывы </a></li>
+                            <li><a href="#">Советы по ремонту </a></li>
+                            <li><a href="#">Акции </a></li>
+                            <li><a href="#">Контакты </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="right">
+                        <p>г. Киев, ул. Ушинского,4 ПН-ПТ с 10:00 до 20:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hrLine" />
+
+            <div class="container">
+                <div class="navigation">
+                    <div class="navBar__bottom">
+                        <div class="logo">
+                            <img src="./images/img/Logo.svg" alt="logo" />
+                        </div>
+
+                        <div class="partners" id="popoverHeader">
+                            <span> Ремонт мобильных телефонов </span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="partners" id="popHeader">
+                            <span> Ремонт планшетов </span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="contact">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <div class="phoneNum">
+                                <p>+38 (066) 452-16-85</p>
+                                <p>+38 (099) 775-65-44</p>
+                                <a href="#">Записаться на ремонт</a>
+                            </div>
+                            <img src="./images/icons/icons.svg" alt="icons" />
+                        </div>
+                    </div>
+
+                    <div class="hiddenWindow inactive" id="hiddenWindow">
+                        <i class="fa-solid fa-xmark closer" id="closer"></i>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/iphone.png"
+                                widht="71"
+                                height="52"
+                                alt="iphone"
+                            />
+                            <p>Ремонт iPhone</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/htc.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт HTC</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/samsung.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>
+                                Ремонт телефонов <br />
+                                Samsung Galaxy
+                            </p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/nokia.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Nokia</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/sony.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Sony</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/motorola.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>
+                                Ремонт телефонов <br />
+                                Motorola
+                            </p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/lg.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов LG</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/huawei.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов HUAWEI</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/bb.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>
+                                Ремонт телефонов <br />
+                                Blackberry
+                            </p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/vertu.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Vertu</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/meizu.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Meizu</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/zte_logo.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов ZTE</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/lenovo.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Lenovo</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/asus.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Asus</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/oneplus.png"
+                                widht="71"
+                                height="29"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов OnePlus</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img src="./images/img/Google.png" alt="image" />
+                            <p>Ремонт телефонов Google</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/vivo.png"
+                                widht="71"
+                                height="29"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Vivo</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/xiaomi.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Xiaomi</p>
+                        </div>
+
+                        <div class="hiddenWindow-item">
+                            <img
+                                src="./images/img/acer.png"
+                                widht="71"
+                                height="52"
+                                alt="image"
+                            />
+                            <p>Ремонт телефонов Acer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <header class="headerMobile">
+            <div class="container">
+                <div class="navTop">
+                    <div class="hamburgerMenu">
+                        <i class="fa-solid fa-bars" id="hamburgerMenu"></i>
+                    </div>
+
+                    <div class="logo">
+                        <a href="#"
+                            ><img src="./images/img/logoMobile.svg" alt="logo"
+                        /></a>
+                    </div>
+
+                    <div class="contact" id="mobileContact">
+                        <i
+                            class="fa-solid fa-mobile-screen-button contactBar"
+                        ></i>
+
+                        <div class="phoneNum displayNone" id="mobilePhone">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <div class="phoneNum-item">
+                                <p>+38 (066) 452-16-85</p>
+                                <p>+38 (099) 775-65-44</p>
+                                <a href="#">Записаться на ремонт</a>
+                            </div>
+                            <img src="./images/icons/icons.svg" alt="icons" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popoverBody displayNone" id="popoverBody">
+
+                <div class="popHead-holder">
+                    <div class="container">
+                        <div class="closeBtn">
+                            <i class="fa-solid fa-xmark" id="mobileClose"></i>
+                            <p>ЗАКРЫТЬ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popBody-holder">
+                    <div class="container">
+
+                        <div class="partnersBtn" id="partnersBtn">
+                            <p>Ремонт мобильных телефонов</p>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="popoverPartner displayNone" id="popoverPartner">
+
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/iphone.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="iphone"
+                                />
+                                <p>Ремонт iPhone</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/htc.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт HTC</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/samsung.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>
+                                    Ремонт телефонов <br />
+                                    Samsung Galaxy
+                                </p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/nokia.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Nokia</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/sony.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Sony</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/motorola.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>
+                                    Ремонт телефонов <br />
+                                    Motorola
+                                </p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/lg.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов LG</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/huawei.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов HUAWEI</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/bb.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>
+                                    Ремонт телефонов <br />
+                                    Blackberry
+                                </p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/vertu.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Vertu</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/meizu.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Meizu</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/zte_logo.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов ZTE</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/lenovo.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Lenovo</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/asus.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Asus</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/oneplus.png"
+                                    widht="71"
+                                    height="29"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов OnePlus</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img src="./images/img/Google.png" alt="image" />
+                                <p>Ремонт телефонов Google</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/vivo.png"
+                                    widht="71"
+                                    height="29"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Vivo</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/xiaomi.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Xiaomi</p>
+                            </div>
+    
+                            <div class="hiddenWindow-item">
+                                <img
+                                    src="./images/img/acer.png"
+                                    widht="71"
+                                    height="52"
+                                    alt="image"
+                                />
+                                <p>Ремонт телефонов Acer</p>
+                            </div>
+                        </div>
+
+                        <div class="partnersBtn" id="info">
+                            <p>Ремонт планшетов</p>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+
+                        <div class="popoverList displayNone" id="popoverList">
+                            <ul>
+                                <li><a href="#">О нас </a></li>
+                                <li><a href="#">Отзывы </a></li>
+                                <li><a href="#">Советы по ремонту </a></li>
+                                <li><a href="#">Акции </a></li>
+                                <li><a href="#">Контакты </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+
+        <div class="container">
+            <section class="hero">
+                <div class="heroSearch">
+                    <div class="content">
+                        <select name="" id="">
+                            <option id="placeholder" disabled selected hidden>
+                                Выберите устройство
+                            </option>
+                            <option value="iPhone">Smart Phones</option>
+                            <option value="iPhone">Tablets</option>
+                            <option value="iPhone">Labtops</option>
+                            <option value="iPhone">Airpots</option>
+                            <option value="iPhone">PC</option>
+                            <option value="iPhone">Monitors</option>
+                            <option value="iPhone">Headphones</option>
+                        </select>
+
+                        <div class="contentIcon">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <select name="" id="">
+                            <option disabled selected hidden>
+                                Выберите марку
+                            </option>
+                            <option value="">iPhone</option>
+                            <option value="">Samsung</option>
+                            <option value="">Xiaomi</option>
+                            <option value="">Sony</option>
+                            <option value="">OnePlus</option>
+                            <option value="">HUAWEI</option>
+                            <option value="">Meizu</option>
+                            <option value="">Vivo</option>
+                            <option value="">Motorola</option>
+                        </select>
+
+                        <div class="contentIcon">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <select name="" id="">
+                            <option disabled selected hidden>
+                                Выберите модель
+                            </option>
+                            <option value="iPhone">iPhone</option>
+                            <option value="iPhone">iPhone</option>
+                            <option value="iPhone">iPhone</option>
+                            <option value="iPhone">iPhone</option>
+                            <option value="iPhone">iPhone</option>
+                            <option value="iPhone">iPhone</option>
+                            <option value="iPhone">iPhone</option>
+                        </select>
+
+                        <div class="contentIcon">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+                    <div class="contentBtn">
+                        <button>
+                            Найти <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="BtnMobile">
+                    <button>Найти свое устройство</button>
+                </div>
+
+                <div class="heroContent">
+                    <div class="content">
+                        <h1>Ремонт телефонов любой сложности</h1>
+                        <p>
+                            Ваш любимый гаджет сломался? Вернем его к жизни в
+                            кратчайшие сроки и по доступной цене!
+                        </p>
+                        <button>Записаться на ремонт</button>
+                    </div>
+
+                    <div class="line"></div>
+                </div>
+            </section>
+        </div>
+
+        <div class="heroContent-mobile">
+            <div class="heroContent">
+                <div class="container">
+                    <div class="content">
+                        <h1>Ремонт телефонов любой сложности</h1>
+                        <p>
+                            Ваш любимый гаджет сломался? Вернем его к жизни в
+                            кратчайшие сроки и по доступной цене!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button>Записаться на ремонт</button>
+            <div class="line"></div>
+        </div>
+        <!-- header (Rahimjon) -->
+
+
+        <!-- section 3 (Mohigul) -->
+        <div class="container">
+            <div class="advantage">
+                <h1>Haши пpeимущecтвa</h1>
+                <p>Сотни клиентов ежедневно выбирают StоpNFix</p>
+                <div class="advantage__list">
+                    <div class="advantage__item">
+                        <div class="advantage__item-img">
+                            <img src="./images/image/1_icon.svg" alt="telephone-icon">
+                        </div>
+                        <p>Гибкие цены
+                            и бесплатная диагностика</p>
+                    </div>
+                    <div class="advantage__item">
+                        <div class="advantage__item-img">
+                            <img src="./images/image/smartphone2_icon.svg" alt="telephone-icon">
+                        </div>
+                        <p>Целый склад запасных
+                            частей в наличии</p>
+                    </div>
+                    <div class="advantage__item">
+                        <div class="advantage__item-img">
+                            <img src="./images/image/sm_3_icon.svg" alt="telephone-icon">
+                        </div>
+                        <p>Самый быстрый
+                            ремонт в Киеве</p>
+                    </div>
+                    <div class="advantage__item">
+                        <div class="advantage__item-img">
+                            <img src="./images/image/sm_4.svg" alt="telephone-icon">
+                        </div>
+                        <p>Даем гарантию на
+                            свою работу</p>
+                    </div>
+                </div>
+                <div class="advantage__btn">
+                    <button class="register__btn"><a href="">Записаться на ремонт</a></button>
+                    <button class="price__btn"><a href="">Узнать стоимость</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- section 3 (Mohigul) -->
+
+
+        <!-- Abdulaziz -->
+        <section class="stock-section">
+            <div class="container">
+                <div class="stock">
+                    <div class="stock__content">
+                        <p class="stock__text">Акции</p>
+                        <P class="stock__text">Новости блога</P>
+                    </div>
+                    
+                                        
+                    <ul class="stock__list">
+                        <li class="stock__item">
+                            <img src="./images/abdulaziz/phone repair.png" alt="" class="stock__img">
+                            <p class="stock__item-text">Скидка на ремонт второго телефона -20%</p>
+                        </li>
+                        <li class="stock__item">
+                            <img src="./images/abdulaziz/phone.png" alt="" class="stock__img">
+                            <p class="stock__item-text">Новогодняя акция на ремонт мобильных телефонов!</p>
+                        </li>
+                        <li class="stock__item">
+                            <img src="images/abdulaziz/Telefon.png" alt="" class="stock__img">
+                            <p class="stock__item-text">Диагностика планшета в подарок!</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="stock__wrap">
+                    <a class="stock__link" href="#">Все акции</a>
+                </div>
+            </div>
+        </section>
+        <!-- Abdulaziz -->
+        
+
+        <!-- footer (Quvonch) -->
+        <div class="footer">
+            <div class="footer__map">
+                <h1 class="map__text">Как нас найти</h1>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5996.393044892146!2d69.19345834189329!3d41.28282719759078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a2f4da56069%3A0xe463bd88790d0f97!2z0KfQuNC70LDQvdC30LDRgC0xMCwg0KLQsNGI0LrQtdC90YIsINCi0LDRiNC60LXQvdGC0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1711863596450!5m2!1sru!2s"
+                        width="100%"
+                        height="340"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer__text">
+                    <div class="rights">
+                        <span
+                            >Современную жизнь практически невозможно
+                            представить себе без использования мобильных
+                            устройств - смартфоны помогают находить нужную
+                            информацию,
+                        </span>
+                        <p>служат средством связи и являются своеобразным.</p>
+                        <a href="#">Развернуть</a>
+                    </div>
+                    <div class="lefts">
+                      
+                    </div>
+                </div>
+            </div>
+            <img
+                class="footer__line"
+                src="./images/img/Rectangle 2.png"
+                width="100%"
+                alt="img"
+            />
+            <div class="container">
+                <div class="footer__section">
+                    <div class="ftrsection__right">
+                        <img
+                            src="./images/img/footerlogo.png"
+                            width="204"
+                            height="42"
+                            alt="img"
+                            class="logosftr"
+                        />
+                        <div class="text__groups">
+                            <img src="./images/img/Shape.png" alt="img" />
+                            <a href="#">info@stopnfix.com</a>
+                        </div>
+                        <div class="text__groupes">
+                            <img src="./images/img/Shape (1).png" alt="img" />
+                            <p>г. Киев, улица Ушинского, 4</p>
+                        </div>
+                        <div class="nambers__groupes">
+                            <img
+                                src="./images/img/Vector (4).png"
+                                width="13"
+                                height="17"
+                                alt="img"
+                            />
+                            <p>
+                                +38 (095) 934-36-25 <br />
+                                +38 (056) 785-35-44
+                            </p>
+                            <img
+                                src="./images/icons/icons.svg"
+                                width="39"
+                                height="20"
+                                alt="img"
+                            />
+                        </div>
+                        <a id="links" href="#">Заказать звонок с сайта</a>
+                    </div>
+                    <div class="ftrsection__middle">
+                        <p>Информация</p>
+                        <span>Акции</span>
+                        <span>Советы по ремонту</span>
+                        <span class="middle__text">О компании</span>
+                        <span>Отзывы</span>
+                        <span>Контакты</span>
+                    </div>
+                    <div class="ftrsection__left">
+                        <p>Услуги</p>
+                        <span>Ремонт мобильных телефонов</span>
+                        <h3>Ремонт планшетов</h3>
+                        <div class="imges__groups">
+                            <img
+                                src="./images/img/Vector (2).png"
+                                width="20"
+                                height="9"
+                                alt="img"
+                            />
+                            <img
+                                src="./images/img/Vector (1).png"
+                                width="20"
+                                height="13"
+                                alt="img"
+                            />
+                            <img
+                                src="./images/img/Frame.png"
+                                width="20"
+                                height="20"
+                                alt="img"
+                            />
+                            <img
+                                src="./images/img/Vector.png"
+                                width="10"
+                                height="17"
+                                alt="img"
+                            />
+                        </div>
+                    </div>
+                </div>
+               
+                <p class="bottoms__texts">
+                    © Сервис по ремонту StopNFix. 2018.
+                </p>
+            </div>
+        </div>
+        <!-- footer (Quvonch) -->
+
+     
+       
+        <script src="./main.js"></script>
+    </body>
+</html>

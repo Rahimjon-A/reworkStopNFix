@@ -1,0 +1,227 @@
+.footer__map {
+    .map__text {
+        color: rgb(61, 61, 61);
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+
+    .map {
+        padding-bottom: 120px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.footer__text {
+    padding-bottom: 25px;
+
+    .rights {
+        span {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        p {
+            color: rgb(61, 61, 61);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+            padding-bottom: 20px;
+        }
+
+        a {
+            color: rgb(57, 153, 229);
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0%;
+            text-align: left;
+            text-decoration-line: underline;
+            text-decoration: underline;
+        }
+
+    }
+}
+
+.footer__img {
+    position: relative;
+    left: 1160px;
+    bottom: 85px;
+}
+
+.footer__line {
+    padding-bottom: 20px;
+}
+
+.ftrsection__right {
+    .logosftr {
+        margin-bottom: 20px;
+    }
+
+    .text__groups {
+        display: flex;
+        gap: 11px;
+
+        a {
+            color: rgb(0, 37, 74);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+            text-decoration-line: underline;
+
+        }
+
+    }
+
+    .text__groupes {
+        display: flex;
+        gap: 14px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+
+        p {
+            color: rgb(0, 37, 74);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+    .nambers__groupes {
+        display: flex;
+        gap: 14px;
+
+        p {
+            color: rgb(0, 37, 74);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+    #links {
+        color: rgb(57, 153, 229);
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+        margin-left: 28px;
+    }
+}
+
+.footer__section {
+    display: flex;
+    gap: 200px;
+    row-gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D4E4EF;
+    flex-wrap: wrap;
+}
+
+.ftrsection__middle {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    p {
+        color: rgb(55, 69, 97);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+        opacity: 0.4;
+    }
+
+    .span {
+        color: rgb(0, 37, 74);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .middle__text {
+        color: rgb(39, 172, 226);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.ftrsection__left {
+    p {
+        color: rgb(55, 69, 97);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+        opacity: 0.4;
+        padding-bottom: 15px;
+    }
+
+    span {
+        color: rgb(0, 37, 74);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    h3 {
+        color: rgb(0, 37, 74);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 8px;
+        padding-bottom: 75px;
+    }
+
+    .imges__groups {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+.botton__line {
+    margin-bottom: 20px;
+}
+
+.bottoms__texts {
+    margin-bottom: 76px;
+    margin-top: 18px;
+    opacity: 0.7;
+    color: rgb(0, 37, 74);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+}

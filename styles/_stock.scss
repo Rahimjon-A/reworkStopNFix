@@ -1,0 +1,141 @@
+
+
+
+.stock-section {
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    margin-bottom: 50px;
+    display: flex;align-items: center;justify-content: center;
+}
+
+
+.stock__content {
+    margin-top: 33px;
+    display: flex;
+    margin-bottom: 34px;
+    border-bottom: 1px solid  #D4E4EF;
+    align-items: center;
+    justify-content: center;
+}
+
+.stock__text {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    
+    color: rgb(61, 61, 61);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.8;
+}
+.stock__text::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #27ACE2;
+    left: -100%;
+    bottom: 0;
+    transition: all 0.3s;
+}
+.stock__text:hover::before {
+    left: 0; 
+}
+
+.stock__text:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.stock__text + .stock__text {
+    margin-left: 133px;
+}
+
+
+.stock__line-img {
+    margin-bottom: 34px;
+}
+.stock__list {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0 auto;
+    gap: 27px;
+}
+.stock__item {
+    width: 352px;
+}
+.stock__img {
+    margin-bottom: 14px;
+}
+.stock__item-text {
+    width: 357px;
+    height: 47px;
+    color: rgb(0, 37, 74);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+}
+.stock__wrap {
+    width: 100%;
+    text-align: center;
+}
+.stock__link {
+    display: inline-block;
+    padding: 12px 35px 12px 35px;
+    margin-bottom: 43px;
+    margin-top: 40px;
+    text-align: center;
+    width: 177px;
+    height: 40px;
+    border-radius: 4px;
+    
+    background: rgb(3, 96, 168);
+    color: #FEFCF7;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width:900px) {
+    .stock {
+        width: 100%;
+    }
+    .stock__text {
+        color: rgb(61, 61, 61);
+        font-family: Roboto;
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .stock__text + .stock__text {
+        margin-left: 47px;
+    }
+    .stock__list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .stock__link {
+        background-color: #27ACE2;
+    }
+    .stock__item {
+        width: 100%;
+    }
+    .stock__item-text {
+        width: 100%;
+    }
+    .stock__img {
+        width: 100%;
+    }
+}
